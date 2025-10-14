@@ -1,20 +1,59 @@
 .container {
-    text-align: center;
-  }
-  
-  .titulo {
-    color: purple;
-  }
-  
-  .lista {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .card {
-    background: #eee;
-    padding: 10px;
-    border-radius: 8px;
-  }
-  
+  padding: 40px;
+}
+ 
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cardCarro {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  overflow: hidden;
+}
+
+.foto {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  padding: 20px;
+  text-align: left;
+}
+
+.marca {
+  display: inline-block;
+  background-color: #ffe0fa;
+  color: rgb(204, 0, 204);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #1a1a1a;
+}
+
+.detalhe p {
+  margin: 0 0 5px 0;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+  border-bottom: 0px;
+}
+
+.detalhe p strong {
+  color: #333;
+}
