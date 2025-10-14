@@ -1,0 +1,20 @@
+.container {
+    text-align: center;
+  }
+  
+  .titulo {
+    color: purple;
+  }
+  
+  .lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #eee;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  

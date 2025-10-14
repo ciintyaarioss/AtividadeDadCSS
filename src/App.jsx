@@ -1,6 +1,7 @@
 import "./App.css";
 import MyComponent from "./components/MyComponent";
-import Title from "./components/Title"; // LINHA ADICIONADA
+import Title from "./components/Title";
+import Cars from "./components/Cars";
 
 function App() {
   const n = 15;
@@ -8,6 +9,8 @@ function App() {
 
   return (
     <div className="App">
+      <Title />
+      <Cars />
       <h1>React com CSS</h1>
       <p>Este parágrafo pegou estilo do componente!</p>
       <MyComponent />
@@ -29,7 +32,6 @@ function App() {
       <h2 className={redTitle ? "red-title" : "title"}>
         Este título vai ter uma classe dinâmica
       </h2>
-      <Title />
       <h1 className="title">Este não recebe título do CSS modules</h1>
     </div>
   );
