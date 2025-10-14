@@ -11,6 +11,11 @@ function App() {
     <div className="App">
       <Title />
       <Cars />
+      <br />
+      <br />
+      <hr />
+      <br />
+      <br />
       <h1>React com CSS</h1>
       <p>Este parágrafo pegou estilo do componente!</p>
       <MyComponent />
